@@ -1,4 +1,4 @@
-<scheme name="jetbrains-asv-theme" version="142" parent_scheme="Darcula">
+<scheme name="asv-theme" version="142" parent_scheme="Darcula">
     <colors>
         <option name="ADDED_LINES_COLOR" value="549159" />
         <option name="ANNOTATIONS_COLOR" value="8D9199" />
