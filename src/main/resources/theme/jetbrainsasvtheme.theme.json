@@ -1,0 +1,38 @@
+{
+  "author": "hauswaeldchen",
+  "dark": true,
+  "name": "asv-theme",
+  "colors": {
+    "selection": "#6d6653",
+    "inactive": "#252525",
+    "link": "#f0db89",
+    "hover": "#f8ebb4",
+    "background": "#272727",
+    "border": "#dadada",
+    "text": "#dadada"
+  },
+  "editorScheme": "/theme/asvtheme.xml",
+  "ui": {
+    "*": {
+      "background": "background",
+      "textText": "text"
+    },
+    "Button": {
+      "background": "background",
+      "default.startBackground": "background",
+      "default.endBackground": "background",
+      "default.startBorderColor": "border",
+      "default.endBorderColor": "border"
+    },
+    "TextPane.selectionBackground": "selection",
+    "Tree.selectionBackground": "selection",
+    "Tree.selectionInactiveBackground": "inactive",
+    "ToolWindow.Button.selectedBackground": "selection",
+    "Menu.selectionBackground": "selection",
+    "MenuItem.selectionBackground": "selection",
+    "PopupMenu.selectionBackground": "selection",
+    "List.selectionBackground": "selection",
+    "Link.activeForeground": "link",
+    "Link.hoverForeground": "hover"
+  }
+}
