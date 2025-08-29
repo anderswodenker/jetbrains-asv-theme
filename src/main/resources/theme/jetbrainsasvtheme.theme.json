@@ -1,9 +1,10 @@
 {
   "author": "hauswaeldchen",
   "dark": true,
-  "name": "asv-theme",
+  "name": "ASV Theme",
   "colors": {
     "selection": "#6d6653",
+    "green": "#5f7f59",
     "inactive": "#252525",
     "link": "#f0db89",
     "hover": "#f8ebb4",
@@ -15,24 +16,134 @@
   "ui": {
     "*": {
       "background": "background",
-      "textText": "text"
+      "foreground": "text",
+      "textText": "text",
+      "borderColor": "border",
+      "separatorColor": "inactive"
     },
     "Button": {
       "background": "background",
+      "foreground": "text",
       "default.startBackground": "background",
       "default.endBackground": "background",
       "default.startBorderColor": "border",
-      "default.endBorderColor": "border"
+      "default.endBorderColor": "border",
+      "default.foreground": "text",
+      "disabledText": "inactive",
+      "shadowColor": "inactive"
     },
-    "TextPane.selectionBackground": "selection",
-    "Tree.selectionBackground": "selection",
-    "Tree.selectionInactiveBackground": "inactive",
-    "ToolWindow.Button.selectedBackground": "selection",
-    "Menu.selectionBackground": "selection",
-    "MenuItem.selectionBackground": "selection",
-    "PopupMenu.selectionBackground": "selection",
-    "List.selectionBackground": "selection",
-    "Link.activeForeground": "link",
-    "Link.hoverForeground": "hover"
+    "CheckBox": {
+      "background": "background",
+      "foreground": "text",
+      "select": "selection"
+    },
+    "ComboBox": {
+      "background": "background",
+      "foreground": "text",
+      "selectionBackground": "selection",
+      "ArrowButton.background": "background"
+    },
+    "Component": {
+      "focusColor": "link",
+      "borderColor": "border"
+    },
+    "EditorPane": {
+      "background": "background",
+      "foreground": "text",
+      "selectionBackground": "selection"
+    },
+    "EditorTabs": {
+      "background": "background",
+      "borderColor": "border",
+      "underlineColor": "border",
+      "inactiveUnderlineColor": "background"
+    },
+    "Label": {
+      "foreground": "text",
+      "disabledForeground": "inactive"
+    },
+    "List": {
+      "background": "background",
+      "foreground": "text",
+      "selectionBackground": "selection",
+      "selectionForeground": "text",
+      "hoverBackground": "hover"
+    },
+    "Menu": {
+      "background": "background",
+      "foreground": "text",
+      "selectionBackground": "selection",
+      "separatorColor": "border"
+    },
+    "MenuBar": {
+      "foreground": "text",
+      "borderColor": "border"
+    },
+    "MenuItem": {
+      "foreground": "text",
+      "selectionBackground": "selection"
+    },
+    "Panel": {
+      "foreground": "text"
+    },
+    "PopupMenu": {
+      "foreground": "text",
+      "selectionBackground": "selection"
+    },
+    "ScrollBar": {
+      "thumb": "selection"
+    },
+    "TabbedPane": {
+      "background": "background",
+      "foreground": "text",
+      "focus": "link",
+      "underlineColor": "link"
+    },
+    "Table": {
+      "background": "background",
+      "foreground": "text",
+      "selectionBackground": "selection",
+      "gridColor": "inactive",
+      "sortIconColor": "text"
+    },
+    "TextField": {
+      "background": "background",
+      "foreground": "text",
+      "selectionBackground": "selection",
+      "caretForeground": "text"
+    },
+    "TextPane": {
+      "background": "background",
+      "foreground": "text",
+      "selectionBackground": "selection"
+    },
+    "TitledBorder": {
+      "titleColor": "text"
+    },
+    "ToolBar": {
+      "background": "background",
+      "foreground": "text"
+    },
+    "ToolTip": {
+      "foreground": "text"
+    },
+    "Tree": {
+      "foreground": "text",
+      "selectionBackground": "selection",
+      "selectionInactiveBackground": "inactive"
+    },
+    "ToolWindow": {
+      "Header.borderColor": "border",
+      "Button.selectedBackground": "selection",
+      "Button.hoverBackground": "hover"
+    },
+    "StatusBar": {
+      "borderColor": "border"
+    },
+    "Link": {
+      "activeForeground": "link",
+      "hoverForeground": "hover",
+      "pressedForeground": "selection"
+    }
   }
 }
