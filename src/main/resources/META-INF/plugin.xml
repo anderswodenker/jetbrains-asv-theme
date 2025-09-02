@@ -9,7 +9,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.anderswodenker.jetbrainsasvtheme.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <toolWindow factoryClass="com.github.anderswodenker.jetbrainsasvtheme.toolWindow.MyToolWindowFactory" id="ASVTheme" anchor="right" secondary="false"/>
         <postStartupActivity implementation="com.github.anderswodenker.jetbrainsasvtheme.startup.MyProjectActivity" />
         <themeProvider id="com.github.anderswodenker.jetbrainsasvtheme" path="/theme/jetbrainsasvtheme.theme.json"/>
     </extensions>
