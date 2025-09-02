@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>com.github.anderswodenker.jetbrainsasvtheme</id>
     <name>ASV Theme</name>
-    <vendor>anderswodenker</vendor>
+    <vendor>hauswaeldchen</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 

@@ -6,11 +6,12 @@
     "selection": "#6d6653",
     "green": "#5f7f59",
     "inactive": "#252525",
-    "link": "#f0db89",
-    "hover": "#f8ebb4",
+    "link": "#FBD845",
+    "hover": "#CF2F1B",
     "background": "#272727",
-    "border": "#dadada",
-    "text": "#dadada"
+    "border": "#434343",
+    "text": "#dadada",
+    "brown": "#4A3823"
   },
   "editorScheme": "/theme/asvtheme.xml",
   "ui": {
@@ -30,6 +31,10 @@
       "default.endBorderColor": "border",
       "default.foreground": "text",
       "shadowColor": "inactive"
+    },
+    "Banner": {
+      "infoBackground": "brown",
+      "infoBorderColor": "brown"
     },
     "CheckBox": {
       "background": "background",
@@ -53,8 +58,9 @@
     },
     "EditorTabs": {
       "background": "background",
-      "borderColor": "border",
-      "underlineColor": "border",
+      "borderColor": "background",
+      "underlineColor": "selection",
+      "underlinedTabBackground": "background",
       "inactiveUnderlineColor": "background"
     },
     "Label": {
@@ -82,6 +88,7 @@
       "selectionBackground": "selection"
     },
     "Panel": {
+      "background": "background",
       "foreground": "text"
     },
     "PopupMenu": {
@@ -120,7 +127,9 @@
     },
     "ToolBar": {
       "background": "background",
-      "foreground": "text"
+      "foreground": "text",
+      "shadow": "background",
+      "darkShadow": "background"
     },
     "ToolTip": {
       "foreground": "text"
@@ -128,11 +137,13 @@
     "Tree": {
       "foreground": "text",
       "selectionBackground": "selection",
-      "selectionInactiveBackground": "inactive"
+      "selectionInactiveBackground": "inactive",
+      "background": "background"
     },
     "ToolWindow": {
       "Header.borderColor": "border",
-      "Button.selectedBackground": "selection"
+      "Button.selectedBackground": "selection",
+      "Header.inactiveBackground": "background"
     },
     "StatusBar": {
       "borderColor": "border"
