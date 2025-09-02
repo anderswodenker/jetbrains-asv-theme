@@ -1,6 +1,8 @@
 import org.jetbrains.changelog.Changelog
 import org.jetbrains.changelog.markdownToHTML
 import org.jetbrains.intellij.platform.gradle.TestFrameworkType
+import org.jetbrains.intellij.platform.gradle.models.ProductRelease
+import org.jetbrains.intellij.platform.gradle.IntelliJPlatformType
 
 plugins {
     id("java") // Java support
@@ -105,6 +107,26 @@ intellijPlatform {
     pluginVerification {
         ides {
             recommended()
+            select {
+                types = listOf(IntelliJPlatformType.IntellijIdeaCommunity, IntelliJPlatformType.IntellijIdeaUltimate)
+                channels = listOf(ProductRelease.Channel.RELEASE)
+                sinceBuild = providers.gradleProperty("pluginSinceBuild")
+            }
+            select {
+                types = listOf(IntelliJPlatformType.PyCharmCommunity, IntelliJPlatformType.PyCharmProfessional)
+                channels = listOf(ProductRelease.Channel.RELEASE)
+                sinceBuild = providers.gradleProperty("pluginSinceBuild")
+            }
+            select {
+                types = listOf(IntelliJPlatformType.WebStorm, IntelliJPlatformType.PhpStorm, IntelliJPlatformType.RubyMine)
+                channels = listOf(ProductRelease.Channel.RELEASE)
+                sinceBuild = providers.gradleProperty("pluginSinceBuild")
+            }
+            select {
+                types = listOf(IntelliJPlatformType.CLion, IntelliJPlatformType.GoLand)
+                channels = listOf(ProductRelease.Channel.RELEASE)
+                sinceBuild = providers.gradleProperty("pluginSinceBuild")
+            }
         }
     }
 }
