@@ -108,22 +108,17 @@ intellijPlatform {
         ides {
             recommended()
             select {
-                types = listOf(IntelliJPlatformType.IntellijIdeaCommunity, IntelliJPlatformType.IntellijIdeaUltimate)
+                types = listOf(IntelliJPlatformType.IntellijIdeaCommunity)
                 channels = listOf(ProductRelease.Channel.RELEASE)
                 sinceBuild = providers.gradleProperty("pluginSinceBuild")
             }
             select {
-                types = listOf(IntelliJPlatformType.PyCharmCommunity, IntelliJPlatformType.PyCharmProfessional)
+                types = listOf(IntelliJPlatformType.PyCharmCommunity)
                 channels = listOf(ProductRelease.Channel.RELEASE)
                 sinceBuild = providers.gradleProperty("pluginSinceBuild")
             }
             select {
-                types = listOf(IntelliJPlatformType.WebStorm, IntelliJPlatformType.PhpStorm, IntelliJPlatformType.RubyMine)
-                channels = listOf(ProductRelease.Channel.RELEASE)
-                sinceBuild = providers.gradleProperty("pluginSinceBuild")
-            }
-            select {
-                types = listOf(IntelliJPlatformType.CLion, IntelliJPlatformType.GoLand)
+                types = listOf(IntelliJPlatformType.WebStorm)
                 channels = listOf(ProductRelease.Channel.RELEASE)
                 sinceBuild = providers.gradleProperty("pluginSinceBuild")
             }
