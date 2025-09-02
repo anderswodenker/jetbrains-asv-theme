@@ -29,7 +29,6 @@
       "default.startBorderColor": "border",
       "default.endBorderColor": "border",
       "default.foreground": "text",
-      "disabledText": "inactive",
       "shadowColor": "inactive"
     },
     "CheckBox": {
@@ -66,8 +65,7 @@
       "background": "background",
       "foreground": "text",
       "selectionBackground": "selection",
-      "selectionForeground": "text",
-      "hoverBackground": "hover"
+      "selectionForeground": "text"
     },
     "Menu": {
       "background": "background",
@@ -134,8 +132,7 @@
     },
     "ToolWindow": {
       "Header.borderColor": "border",
-      "Button.selectedBackground": "selection",
-      "Button.hoverBackground": "hover"
+      "Button.selectedBackground": "selection"
     },
     "StatusBar": {
       "borderColor": "border"
