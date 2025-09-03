@@ -8,7 +8,7 @@
     "inactive": "#252525",
     "link": "#FBD845",
     "hover": "#CF2F1B",
-    "background": "#272727",
+    "background": "#131313",
     "border": "#434343",
     "text": "#dadada",
     "brown": "#4A3823"
@@ -30,6 +30,8 @@
       "default.startBorderColor": "border",
       "default.endBorderColor": "border",
       "default.foreground": "text",
+      "default.focusColor": "selection",
+      "default.focusedBorderColor": "selection",
       "shadowColor": "inactive"
     },
     "Banner": {
@@ -143,7 +145,8 @@
     "ToolWindow": {
       "Header.borderColor": "border",
       "Button.selectedBackground": "selection",
-      "Header.inactiveBackground": "background"
+      "Header.inactiveBackground": "background",
+      "HeaderTab.underlineColor": "selection"
     },
     "StatusBar": {
       "borderColor": "border"
