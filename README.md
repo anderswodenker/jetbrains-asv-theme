@@ -1,8 +1,8 @@
 # jetbrains-asv-theme
 
 ![Build](https://github.com/anderswodenker/jetbrains-asv-theme/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/com.github.anderswodenker.jetbrainsasvtheme)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/com.github.anderswodenker.jetbrainsasvtheme)
+[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/28360-asv-theme)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/28360-asv-theme)
 
 <!-- Plugin description -->
 ## ASV Theme
