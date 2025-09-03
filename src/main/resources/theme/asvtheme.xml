@@ -70,7 +70,7 @@
         <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
         <option name="BAD_CHARACTER">
             <value>
-                <option name="FOREGROUND" value="f75464" />
+                <option name="FOREGROUND" value="CF2F1B" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -151,7 +151,7 @@
         </option>
         <option name="CSS.URL">
             <value>
-                <option name="FOREGROUND" value="5c92ff" />
+                <option name="FOREGROUND" value="79BD65" />
             </value>
         </option>
         <option name="CTRL_CLICKABLE">
@@ -290,7 +290,7 @@
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="a29bbc" />
+                <option name="FOREGROUND" value="D0CB8E" />
             </value>
         </option>
         <option name="DEFAULT_LINE_COMMENT">
@@ -339,19 +339,19 @@
         </option>
         <option name="DEFAULT_STATIC_FIELD">
             <value>
-                <option name="FOREGROUND" value="F1929D" />
+                <option name="FOREGROUND" value="AA84D0" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_STATIC_METHOD">
             <value>
-                <option name="FOREGROUND" value="A4B690" />
+                <option name="FOREGROUND" value="89B082" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="A4B690" />
+                <option name="FOREGROUND" value="89B082" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -421,13 +421,13 @@
         </option>
         <option name="GHERKIN_REGEXP_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="5c92ff" />
+                <option name="FOREGROUND" value="79BD65" />
             </value>
         </option>
         <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
         <option name="HTML_CUSTOM_TAG_NAME">
             <value>
-                <option name="FOREGROUND" value="2fbaa3" />
+                <option name="FOREGROUND" value="D29183" />
             </value>
         </option>
         <option name="HTML_ENTITY_REFERENCE">
@@ -437,12 +437,12 @@
         </option>
         <option name="HTML_TAG">
             <value>
-                <option name="FOREGROUND" value="d5b778" />
+                <option name="FOREGROUND" value="D0CB8E" />
             </value>
         </option>
         <option name="HTML_TAG_NAME">
             <value>
-                <option name="FOREGROUND" value="d5b778" />
+                <option name="FOREGROUND" value="D0CB8E" />
             </value>
         </option>
         <option name="HYPERLINK_ATTRIBUTES">
@@ -521,12 +521,12 @@
         </option>
         <option name="JS.INSTANCE_MEMBER_FUNCTION">
             <value>
-                <option name="FOREGROUND" value="85c191" />
+                <option name="FOREGROUND" value="D26F64" />
             </value>
         </option>
         <option name="JS.JSX_CLIENT_COMPONENT">
             <value>
-                <option name="FOREGROUND" value="9c9cff" />
+                <option name="FOREGROUND" value="ADADD0" />
             </value>
         </option>
         <option name="JS.LOCAL_VARIABLE">
@@ -536,7 +536,7 @@
         </option>
         <option name="JS.REGEXP">
             <value>
-                <option name="FOREGROUND" value="42c3d4" />
+                <option name="FOREGROUND" value="ABD6DE" />
             </value>
         </option>
         <option name="JSP_DIRECTIVE_NAME">
@@ -638,7 +638,7 @@
         </option>
         <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="f75464" />
+                <option name="EFFECT_COLOR" value="CF2F1B" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
         </option>
@@ -670,7 +670,7 @@
         </option>
         <option name="PROPERTIES.INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="f75464" />
+                <option name="FOREGROUND" value="CF2F1B" />
                 <option name="EFFECT_COLOR" value="CF2F1B" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
@@ -737,7 +737,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="d5d5d5" />
-                <option name="BACKGROUND" value="212121" />
+                <option name="BACKGROUND" value="131313" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -779,7 +779,7 @@
         </option>
         <option name="UNMATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="f75464" />
+                <option name="FOREGROUND" value="CF2F1B" />
             </value>
         </option>
         <option name="Unresolved reference access">
@@ -811,7 +811,7 @@
         </option>
         <option name="WRONG_REFERENCES_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="f75464" />
+                <option name="FOREGROUND" value="CF2F1B" />
             </value>
         </option>
         <option name="XML_ATTRIBUTE_NAME">
@@ -821,7 +821,7 @@
         </option>
         <option name="XML_CUSTOM_TAG_NAME">
             <value>
-                <option name="FOREGROUND" value="2fbaa3" />
+                <option name="FOREGROUND" value="D29183" />
             </value>
         </option>
         <option name="XML_ENTITY_REFERENCE">
@@ -831,17 +831,17 @@
         </option>
         <option name="XML_PROLOGUE">
             <value>
-                <option name="FOREGROUND" value="d5b778" />
+                <option name="FOREGROUND" value="D0CB8E" />
             </value>
         </option>
         <option name="XML_TAG">
             <value>
-                <option name="FOREGROUND" value="d5b778" />
+                <option name="FOREGROUND" value="D0CB8E" />
             </value>
         </option>
         <option name="XML_TAG_NAME">
             <value>
-                <option name="FOREGROUND" value="d5b778" />
+                <option name="FOREGROUND" value="D0CB8E" />
             </value>
         </option>
     </attributes>
