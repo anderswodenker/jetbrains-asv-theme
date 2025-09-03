@@ -2,6 +2,10 @@
 
 # asv-theme Changelog
 
+## [Unreleased]
+### Added
+- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+
 ## [0.0.3] - 2025-09-02
 ### Added
 - Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
