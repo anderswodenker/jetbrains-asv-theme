@@ -13,7 +13,7 @@ A clean, timeless theme built for focus. No flashy colors, no distractions—jus
 
 - Using the IDE built-in plugin system:
   
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "jetbrains-asv-theme"</kbd> >
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "asv-theme"</kbd> >
   <kbd>Install</kbd>
   
 - Using JetBrains Marketplace:
@@ -34,3 +34,6 @@ Plugin based on the [IntelliJ Platform Plugin Template][template].
 
 [template]: https://github.com/JetBrains/intellij-platform-plugin-template
 [docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation
+
+### Note
+Note that this Theme is still experimental. There are might be some minor changes over the time.

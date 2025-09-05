@@ -8,10 +8,11 @@
     "inactive": "#252525",
     "link": "#FBD845",
     "hover": "#CF2F1B",
-    "background": "#131313",
+    "background": "#202021",
     "border": "#434343",
     "text": "#dadada",
-    "brown": "#4A3823"
+    "brown": "#4A3823",
+    "identifier": "#D0CB8E"
   },
   "editorScheme": "/theme/asvtheme.xml",
   "ui": {
@@ -52,6 +53,10 @@
     "Component": {
       "focusColor": "link",
       "borderColor": "border"
+    },
+    "CompletionPopup": {
+      "selectionBackground": "selection",
+      "matchForeground": "identifier"
     },
     "EditorPane": {
       "background": "background",

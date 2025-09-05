@@ -18,3 +18,10 @@
 - Slight darker background
 - Some console colors
 - Constant color
+
+## [0.0.5]
+
+### Changed
+
+- Change background again
+- Add Popup Menu colors
